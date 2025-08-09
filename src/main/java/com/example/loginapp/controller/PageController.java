@@ -8,11 +8,11 @@ public class PageController {
 
     @GetMapping("/login")
     public String showLoginPage() {
-        return "loginpage"; // maps to templates/loginpage.html
+        return "loginpage"; 
     }
 
     @GetMapping("/register")
     public String showRegisterPage() {
-        return "registrationpage"; // maps to templates/registrationpage.html
+        return "registrationpage"; 
     }
 }

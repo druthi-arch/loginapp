@@ -30,7 +30,7 @@ public class UserController {
         boolean success = service.loginUser(username, password);
 
         if (success) {
-            return "dashboard"; 
+            return "index"; 
         } else {
             redirectAttributes.addFlashAttribute("loginFailed", true);
             return "redirect:/loginpage";

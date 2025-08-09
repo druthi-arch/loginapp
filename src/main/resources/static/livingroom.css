@@ -1,0 +1,313 @@
+.AH1{
+    background-image: url(./AH.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .AHH{
+    animation-name: Main;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .AHB{
+    background-color: rgba(224, 2, 2, 0.557);
+    animation-name: Main1;
+    animation-duration: 3s;
+    animation-delay: 0.06s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes Main{
+    from{font-size: 330%;}
+    to{font-size: 230%;}
+  }
+  @keyframes Main1{
+    from{font-size: 150%;}
+    to{font-size: 100%;}
+  }
+  .AHB:hover{
+    cursor: pointer;
+  }
+  #body1{
+      background-color: rgba(162, 160, 160, 0.49);
+  }
+  .body2{
+      background-image: url(./BA.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  .body3{
+    background-image: url(./ADB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  .AD1{
+    cursor: pointer;
+  }
+  .ADi1{
+    width: 40%;
+    border-radius: 10px;
+  }
+  .ADi1:hover{
+    animation-duration: 3s;
+    animation-delay:0s;
+    animation-name: ADi1A;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+  }
+  @keyframes ADi1A{
+    from{width: 40%;}
+    to{width: 20%;border-radius: 100%;}
+  }
+  #d1{
+      background-color: white;
+  }
+  #d1:hover{
+      background-color: rgb(236, 245, 196);
+  }
+  #d2{
+      display: inline;
+  }
+  #d3,#d4,#d5,#d6{
+      margin-left: 5%;
+      display: inline;
+  }
+  #b1{
+      padding-bottom: 1%;
+      border: none;
+      background-color: rgba(162, 160, 160, 0) ;
+      color:black;
+      font-size: 130%;
+      cursor: pointer;
+  }
+  
+.AD1{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  background-color: #008060;
+  color: white;
+}
+
+  #b1:hover,.b2:hover{
+      color: red;
+  }
+  .d7{
+      display: flex;
+      background-color: white;
+  }
+  .d8{
+      padding-left: 15%;
+      padding-bottom: 1%;
+      padding-right: 2%;
+      width: 50%;
+  }
+  .d9{
+      width: 50%;
+      padding-left: 4%;
+      padding-top: 1%;
+  }
+  .b2{
+      margin-left: 1%;
+      border: none;
+      font-size: 110%;
+      padding: 2%;
+      border-radius: 10px;
+      color: rgb(88, 87, 87);
+      cursor: pointer;
+  }
+  * {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color:rgb(243, 19, 42);
+    font-size: 250%;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color:black;
+    font-size: 120%;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #f7f4f4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .h1:hover{
+      border-radius: 15px;
+  }
+  .active, .dot:hover {
+    background-color: rgb(220, 32, 32);
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    text-align: center;
+  }
+  .gur{
+      display: block;
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+  }
+    to {
+      opacity: 1
+  }
+  }
+  .Related{
+      background-color: white;
+      padding-bottom: 2%;
+  }
+  .it1{
+      border-top-left-radius: 45%;
+      border-bottom-left-radius: 45%;
+      padding-left: 20%;
+      width:100%
+  }
+  .tb:hover{
+      cursor: pointer;
+  }
+  .it2{
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    margin-right: 20%;
+    width:90%
+  }
+  .it3{
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    padding-left: 5%;
+    width:100%
+  }
+  .it5{
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    padding-left: 20%;
+    width:100%
+  }
+  .Ani1{
+    animation: Architecture 1s 0.9s forwards;
+  }
+  @keyframes Architecture {
+    0%{
+        transform: translateY(40rem) 
+        rotateY(-20deg);
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
+  }
+  @keyframes blinker 
+          {
+              from { opacity: 2.0; }
+              to { opacity: 0.0; }
+          }
+  
+  #blink1{
+      animation-name: blinker;
+      animation-duration: 1.5s;
+      animation-timing-function: linear;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: none;
+      animation-play-state: running;
+  }
+  .footer{
+    width:fit-content;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .copyright{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: #a7a7a7;
+  }
+  
+  .social-list a{
+    margin: 1%;
+  }
+  
+  .social-list i{
+    font-size:140%;
+    color: #a7a7a7;
+  }
+  
+  .scroll-btn{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 4.5%;
+    height: 6%;
+    background-color: #e2b646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+    color:white;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+  }

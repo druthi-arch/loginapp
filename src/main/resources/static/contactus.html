@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body{
+            background-image: url("worldb&w.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #d1 , #d2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: red;
+        }
+
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: whitesmoke;
+        }
+
+        h4{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: whitesmoke;
+        }
+
+         .box{
+            display: flex;
+            align-items: center ;
+            justify-content: center;
+        } 
+
+        input[id="msg"]{
+            width: 100%;
+            height: 150%; 
+            padding: 50%;
+            margin: 5%;
+        }
+
+        input[id="name"]{
+            width: 100%;
+            height: 75%; 
+            padding: 10%;
+            margin: 5%;
+        }
+
+        input[id="mail"]{
+            width: 100%;
+            height: 75%; 
+            padding: 10%;
+            margin: 5%;
+        }
+
+        button{
+            width: 75%;
+            padding: 2.5%;
+            font-weight: 100%;
+            margin: 5%;
+        }
+
+        .divider {
+      border-top: 1.5px solid #ccc;
+      width: 100%;
+    }
+
+        .container {
+      display: flex; /* Use Flexbox for layout */
+    }
+
+    /* Style for each individual div */
+    .box {
+      width: 50%; /* Set the width to 50% to make them side by side */
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .icon-list {
+      display: flex;
+      flex-direction: column; /* Display items vertically */
+    }
+
+    /* Style for individual icons */
+    .icon {
+      font-size: 150%; /* Set the size of the icon */
+      margin: 5% 0; /* Add spacing between icons */
+      margin-right: 10%;
+      color: red;
+    }
+
+      #phone  {
+      color: skyblue;
+    } 
+
+     #gmail{
+        color: #c29525;
+     }
+
+
+    .icon-item {
+      display: flex;
+      align-items: center;
+      margin: 31.25; 
+      color: #ccc;
+    }
+
+   
+    </style>
+</head>
+<body>
+    <div id="d1">
+    <h1><center>CONTACT</center></h1> <br>
+    </div>
+
+    <div class="divider"></div>
+
+    <div>
+        <h2><center>Home & Sweet Home</center></h2>
+    </div>
+
+    <div>
+        <h4><center>Architectural Elegance, Interior Magic: Transforming Ordinary to Extraordinary !</center></h4>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <form action="">
+                <input type="text" name="your name" id="name" placeholder="Your Name"> <br>
+    
+                <input type="text" name="Email" id="mail" placeholder="Email"> <br>
+    
+                <input type="text" name="Message" id="msg" placeholder="Message"> 
+    
+                <center><button type="submit">Send</button></center>
+    
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="icon-list">
+                <div class="icon-item">
+            <i class="fas fa-map-marker icon">
+            </i> 
+            <span>Siripuram, Visakhapatnam, Andhra Pradesh 530003</span>
+        </div>
+            
+        <div class="icon-item">
+            <i class="fas fa-phone icon"  id="phone">
+            </i>
+            <span>+91 9191919191 </span>
+        </div>
+
+        <div class="icon-item">
+            <i class="fas fa-comment icon"  id="gmail"> 
+            </i>
+            <span>homesweethome@gmail.com</span>
+            </div>
+        </div>
+      </div>
+      </div>
+    
+
+   
+    
+</body>
+</html>
